@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+<TITLE>URI::Describe - Return information about a host-name's
+	originating country and organisation</TITLE>
+<LINK REV="made" HREF="mailto:">
+</HEAD>
+
+<BODY>
+
+<!-- INDEX BEGIN -->
+
+<UL>
+
+	<LI><A HREF="#NAME">NAME</A>
+	<LI><A HREF="#SYNOPSIS">SYNOPSIS</A>
+	<LI><A HREF="#DESCRIPTION">DESCRIPTION</A>
+	<LI><A HREF="#AUTHOR">AUTHOR</A>
+	<LI><A HREF="#COPYRIGHT">COPYRIGHT</A>
+</UL>
+<!-- INDEX END -->
+
+<HR>
+<P>
+<H1><A NAME="NAME">NAME</A></H1>
+<P>
+<PRE>        URI::Describe - Return information about a host-name's
+        originating country and organisation
+</PRE>
+<P>
+<HR>
+<H1><A NAME="SYNOPSIS">SYNOPSIS</A></H1>
+<P>
+<PRE>        use URI::Describe qw/uri_describe host_lookup/;
+</PRE>
+<P>
+<PRE>        $hostname = &amp;host_lookup($ip);
+</PRE>
+<P>
+<PRE>        $description = &amp;uri_describe($host);
+</PRE>
+<P>
+<HR>
+<H1><A NAME="DESCRIPTION">DESCRIPTION</A></H1>
+<P>
+A module to describe geographically a hostname. 'www.stkitt.ac.ar' becomes
+'Argentine University', and 'www.osak.ne.jp' becomes 'Japanese ISP'. Also
+included is an IP to hostname convertor.
+
+<P>
+<HR>
+<H1><A NAME="AUTHOR">AUTHOR</A></H1>
+<P>
+Peter Sergeant &lt;<A HREF="mailto:pete_sergeant@hotmail.com">pete_sergeant@hotmail.com</A>&gt;
+
+
+
+<P>
+<HR>
+<H1><A NAME="COPYRIGHT">COPYRIGHT</A></H1>
+<P>
+Copyright 2000 Peter Sergeant.
+
+<P>
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+</BODY>
+
+</HTML>
